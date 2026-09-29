@@ -58,7 +58,7 @@ npm install
 3. Install backend dependencies:
 pip install -r requirments.txt
 
-4. Start the backend server:
+4. Start the backend server:(Need 2 terminals to run application)
 python src/server.py
 
 5. Start the frontend development server:
