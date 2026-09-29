@@ -51,8 +51,9 @@ This project is a web application that predicts NBA player statistics using mach
    git clone https://github.com/jackhannan-hello/CapstoneNBAPlayerStatPredection.git
    cd CapstoneNBAPlayerStatPredection
 
+Need to cd my-app
+
 2. Install frontend dependencies:
-cd my-app
 npm install
 
 3. Install backend dependencies:
