@@ -1,7 +1,7 @@
 import pandas as pd
 
-file_path = r"c:\Users\Jack Hannan\source\repos\CapstoneNBAPlayerStatPredection\my-app\src\playerStats\jaysontatumFullStats.csv"
-output_path = r"c:\Users\Jack Hannan\source\repos\CapstoneNBAPlayerStatPredection\my-app\src\playerStats\jaysontatumFullStats_cleaned.csv"
+file_path = r"c:\Users\Jack Hannan\source\repos\CapstoneNBAPlayerStatPredection\my-app\src\playerStats\jaylenbrownFullStats.csv"
+output_path = r"c:\Users\Jack Hannan\source\repos\CapstoneNBAPlayerStatPredection\my-app\src\playerStats\jaylenbrownFullStats.csv"
 
 # Load the CSV while ignoring problematic rows
 try:

@@ -57,6 +57,7 @@ npm install
 
 3. Install backend dependencies:
 pip install -r requirments.txt
+Change the base_dir in randForestPredict(115) and predictStats(182) the file path you have
 
 4. Start the backend server:
 python src/server.py

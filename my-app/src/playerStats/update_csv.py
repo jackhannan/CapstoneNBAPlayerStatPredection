@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV file
-file_path = r"c:\Users\Jack Hannan\source\repos\CapstoneNBAPlayerStatPredection\my-app\src\playerStats\nikolajokicFullStats.csv"
+file_path = r"c:\Users\Jack Hannan\source\repos\CapstoneNBAPlayerStatPredection\my-app\src\playerStats\jaylenbrownFullStats.csv"
 df = pd.read_csv(file_path)
 
 # Mapping of team abbreviations to zip codes
@@ -26,7 +26,7 @@ df["Opp"] = df["Opp"].map(team_zip_mapping)
 
 
 # Save the updated CSV file
-output_path = r"c:\Users\Jack Hannan\source\repos\CapstoneNBAPlayerStatPredection\my-app\src\playerStats\nikolajokicFullStats.csv"
+output_path = r"c:\Users\Jack Hannan\source\repos\CapstoneNBAPlayerStatPredection\my-app\src\playerStats\jaylenbrownFullStats.csv"
 df.to_csv(output_path, index=False)
 
 print(f"Updated CSV saved to {output_path}")
