@@ -64,8 +64,10 @@ def get_player_average(player_key):
     
     # File paths
     base_dir = r"c:\Users\Jack Hannan\source\repos\CapstoneNBAPlayerStatPredection\my-app\src"
-    recent_data = os.path.join(base_dir, "playerStats", f"{player_prefix}FullStats.csv")
-    career_data = os.path.join(base_dir, "playerStats", f"{player_prefix}.csv")
+    #recent_data = os.path.join(base_dir, "playerStats", f"{player_prefix}FullStats.csv")
+    #career_data = os.path.join(base_dir, "playerStats", f"{player_prefix}.csv")
+    recent_data = os.path.join("playerStats", f"{player_prefix}FullStats.csv")
+    career_data = os.path.join("playerStats", f"{player_prefix}.csv")
 
     print(recent_data)
     print(career_data)
@@ -180,7 +182,8 @@ def get_player_prediction(player_key):
         
         player_prefix = PLAYER_MAPPING.get(player_key, player_key)
         base_dir = r"c:\Users\Jack Hannan\source\repos\CapstoneNBAPlayerStatPredection\my-app\src"
-        actual_data = os.path.join(base_dir, "playerStats", f"{player_prefix}FullStats.csv")
+        #actual_data = os.path.join(base_dir, "playerStats", f"{player_prefix}FullStats.csv")
+        actual_data = os.path.join("playerStats", f"{player_prefix}FullStats.csv")
                              
         if not os.path.exists(actual_data):
             actual_data = os.path.join("playerStats", "sgaFullStats.csv")

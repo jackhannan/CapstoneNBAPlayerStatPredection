@@ -206,7 +206,7 @@ function App() {
             setLoading(true);
             try {
                 const playerKey = PLAYER_KEYS[playerName];
-                const debugData = { playerName, playerKey };
+                //const debugData = { playerName, playerKey };
 
                 // Determine which predictions to fetch based on selected method
                 let shouldFetchRF = predictionMethod === 'both' || predictionMethod === 'random_forest';

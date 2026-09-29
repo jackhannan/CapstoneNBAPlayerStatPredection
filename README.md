@@ -43,7 +43,7 @@ This project is a web application that predicts NBA player statistics using mach
 ### Prerequisites
 - Node.js and npm installed on your machine.
 - Python 3.x installed.
-- Flask and required Python libraries installed.
+- Flask, Numpy, Pandas, SKLearn, and MatPlotLib are the required Python libraries installed.
 
 ### Steps
 1. Clone the repository:
@@ -51,15 +51,16 @@ This project is a web application that predicts NBA player statistics using mach
    git clone https://github.com/jackhannan-hello/CapstoneNBAPlayerStatPredection.git
    cd CapstoneNBAPlayerStatPredection
 
+Need to cd my-app
+
 2. Install frontend dependencies:
-cd my-app
 npm install
 
 3. Install backend dependencies:
 pip install -r requirments.txt
 Change the base_dir in randForestPredict(115) and predictStats(182) the file path you have
 
-4. Start the backend server:
+4. Start the backend server:(Need 2 terminals to run application)
 python src/server.py
 
 5. Start the frontend development server:
@@ -67,7 +68,7 @@ cd my-app
 npm start or npm run dev
 
 6. Open the application in your browser:
-when you run it. It should give you the link or web addres to run the site
+when you run it. It should give you the link or web address to run the site
 
 Usage:
 1. Select a team and player from the dropdown menus.
